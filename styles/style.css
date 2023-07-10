@@ -124,3 +124,19 @@ body{
     height: 471px;
     /* background-color: black; */
 }
+
+/* section 3 styles */
+
+.section3-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 1275px;
+    height: 265px;
+    border-radius: 8px;
+    background-color: #2727270D;    /* background-color: black; */
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 128px;
+    padding-top: 86px;
+}
