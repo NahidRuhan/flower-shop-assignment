@@ -21,11 +21,9 @@ body{
     display: flex;
     justify-content:start;
     height: 100vh;
-    /* gap: 50px; */
     align-items:center;
     background: rgba(229, 84, 115, 0.322);
     padding-left: 150px;
-    /* padding: 0px 140px; */
     background-image: url("../Flower Asset/pngwing\ 10.png");
     background-position:bottom right;
     background-size: 30%;
@@ -53,16 +51,6 @@ body{
     margin-bottom: 32px;
     width: 634px;
     height: 90px;
-}
-
-.section1-img {
-
-    width: 400px;
-    height: 500px;
-    /* vertical-align: bottom; */
-    padding-top: 74px;
-
-    /* background-color: #111010; */
 }
 
 .section1-btn {
@@ -104,6 +92,7 @@ body{
 .box {
     text-align: center;
 }
+
 .box a {
     color: #272727;
     font-size: 24px;
@@ -236,15 +225,12 @@ margin-bottom: 128px;
 .section6-container {
     text-align: center;
     background-image: url("../Flower Asset/Rectangle\ 9.png");
-
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
     width: 80%;
     height: 449px;
     margin-left: 10%;
-    
     margin-bottom: 128px;
 }
 
@@ -275,7 +261,7 @@ margin-bottom: 128px;
 
 /* footer section style */
 
-footer{
+footer {
     height: 449px;
     background: #111010;
     color: white;
