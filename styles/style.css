@@ -296,3 +296,36 @@ footer{
     font-weight: 400;
     line-height: normal;
 }
+
+/* bonus section style */
+
+.bsection-container {
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 70px;
+    padding: 10px;
+}
+
+.bsection-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bsection-header {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+}
+
+.flower {
+    height: 200px;
+    width: 300px;
+}
+
+.bsection-article {
+    text-align: left;
+    height: 200px;
+    width: 300px;
+}
