@@ -213,9 +213,15 @@ margin-bottom: 128px;
     margin-bottom: 48px;
 }
 
+.section5-photo{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
 .section5-photo>img {
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
     width: 239px;
     height: 277px;
 }
