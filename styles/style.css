@@ -220,8 +220,9 @@ margin-bottom: 128px;
     background-size: cover;
     background-repeat: no-repeat;
 
-    width: 1440px;
+    width: 80%;
     height: 449px;
+    margin-left: 10%;
     
     margin-bottom: 128px;
 }
@@ -231,7 +232,7 @@ margin-bottom: 128px;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    margin-top: 100px;
+    padding-top: 122px;
 }
 
 .section6-description {
@@ -249,4 +250,40 @@ margin-bottom: 128px;
     height: 64px;
     border-radius: 8px;
     background: #FFF;
+}
+
+/* footer section style */
+
+footer{
+    width: 100%;
+    height: 449px;
+    background: #111010;
+    color: white;
+    line-height: 1.8em;
+    text-align: center;
+}
+
+.footer-header {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 128px;
+    padding-bottom: 24px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 32px;
+    width: 50%;
+    margin: auto;
+}
+
+.footer-copy {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
 }
