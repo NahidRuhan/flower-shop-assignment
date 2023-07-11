@@ -19,13 +19,17 @@ body{
 
 .section1-container {
     display: flex;
-    justify-content: center;
+    justify-content:start;
     height: 100vh;
-    gap: 50px;
-    align-items: center;
+    /* gap: 50px; */
+    align-items:center;
     background: rgba(229, 84, 115, 0.322);
-    padding: 0px 140px;
-    
+    padding-left: 150px;
+    /* padding: 0px 140px; */
+    background-image: url("../Flower Asset/pngwing\ 10.png");
+    background-position:bottom right;
+    background-size: 30%;
+    background-repeat: no-repeat;
 }
 
 .section1-text {
@@ -55,6 +59,7 @@ body{
 
     width: 400px;
     height: 500px;
+    /* vertical-align: bottom; */
     padding-top: 74px;
 
     /* background-color: #111010; */
