@@ -178,3 +178,33 @@ body{
 }
 
 /* section 5 styles */
+
+.section5-container {
+margin-bottom: 128px;
+}
+
+.section5-header {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.section5-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.section5-photo>img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* section 6 styles */
+
+
