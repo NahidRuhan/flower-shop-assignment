@@ -20,15 +20,16 @@ body{
 .section1-container {
     display: flex;
     justify-content: center;
+    height: 100vh;
     gap: 50px;
     align-items: center;
-    background-color: #e554737b;
-    padding: 0px 240px;
+    background: rgba(229, 84, 115, 0.322);
+    padding: 0px 140px;
+    
 }
 
 .section1-text {
     width: 708px;
-    height: 100vh;
 }
 
 .section1-header {
@@ -37,6 +38,7 @@ body{
     font-weight: 800;
     margin-top: 197px;
     margin-bottom: 32px;
+    width: 70%;
 }
 
 .section1-description {
@@ -50,9 +52,12 @@ body{
 }
 
 .section1-img {
-    width: 408px;
-    height: 680px;
-    padding-top: 100px;
+
+    width: 400px;
+    height: 500px;
+    padding-top: 80px;
+
+    /* background-color: #111010; */
 }
 
 .section1-btn {
@@ -86,7 +91,8 @@ body{
 
 .section2-box-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10px;
     margin-bottom: 128px;
 }
 
@@ -160,7 +166,7 @@ body{
     display: flex;
     gap: 186px;
     justify-content: center;
-    background: #e554737b;
+    background: rgba(229, 84, 115, 0.322);
 }
 
 .section4-header {
